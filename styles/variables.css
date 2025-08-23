@@ -1,14 +1,20 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --font-main: 'Inter';
+    --font-main: 'Inter-Variable';
     --font-accent: 'PressStart2P';
     --font-wg: 400;
     --main-text-wght: 410;
     --heading-text-wght: 715;
+    --border-black: 2px solid rgba(0, 0, 0, 1);
+    --f-size: 18px;
+    --f-size-button: 14px;
+    --t-color: rgba(0, 0, 0, 1);
+    --bg-color: rgba(255, 255, 255, 1);
     --bg-img: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
 repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
 repeating-linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
     --content-w: clamp(375px, 704px, 100vw);
     --f-head-text: clamp(0.875rem, 0.6978rem + 0.8219vw, 1.4375rem);
     --f-head-title: clamp(3.0625rem, 2.6006rem + 1.6244vw, 4.0625rem);
+    --padding-inline: clamp(0px, calc((100vw - 375px) * 370 / 1065), 370px);
 }
