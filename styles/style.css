@@ -222,7 +222,6 @@
   display: flex;
   justify-content: flex-end;
   max-height: 38px;
-  gap: 10px;
   margin-block-end: 25px;
 }
 
@@ -287,42 +286,42 @@
 }
 
 .like-icon.is-liked .core, .like-icon.is-liked .main-body, .like-icon.is-liked .contour {
-    fill: var(--animation-fill-color);
+  fill: var(--animation-fill-color);
 }
 
 .like-icon.is-liked .contour {
-    transition-duration: 0.3s;
-    transition-delay: 0.06s;
+  transition-duration: 0.3s;
+  transition-delay: 0.06s;
 }
 
 .like-icon.is-liked {
-    transform: scale(1.1);
-    animation: heart-beat 0.5s ease-in-out forwards;
+  transform: scale(1.1);
+  animation: heart-beat 0.5s ease-in-out forwards;
 }
 
 @keyframes heart-beat {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
 }
 
 .like-icon.is-liked .sparks {
-    opacity: 1;
-    animation: sparks-appear 0.5s cubic-bezier(.2,.85,.35,1.35) forwards;
+  opacity: 1;
+  animation: sparks-appear 0.5s cubic-bezier(.2,.85,.35,1.35) forwards;
 }
 
 @keyframes sparks-appear {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 .like-icon.is-liked:not(:hover):not(:active) .sparks {
-    animation: sparks-disappear 0.5s cubic-bezier(.2,.85,.35,1.35) forwards;
+  animation: sparks-disappear 0.5s cubic-bezier(.2,.85,.35,1.35) forwards;
 }
 
 @keyframes sparks-disappear {
-    from { opacity: 1; }
-    to   { opacity: 0; }
+  from { opacity: 1; }
+  to   { opacity: 0; }
 }
 
 .card__like-button {
