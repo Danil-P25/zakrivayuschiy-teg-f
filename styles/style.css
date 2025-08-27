@@ -7,7 +7,6 @@
 ✦ card__icon-button — для кнопки, оборачивающей иконку
 ✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
 ✦ button__text — для обозначения текстового элемента внутри кнопки
-
 */
 
 .page {
@@ -136,7 +135,7 @@
   border-right: 0;
 }
 
-.lebel{
+.lebel {
   position: absolute;
   top: 25px;
   right: 25px;
@@ -208,6 +207,7 @@
 .text-content {
   background-color: var(--bg-color);
   color: var(--t-color);
+  font-variation-settings: "wght" 410;
   font-weight: var(--main-text-wght);
   font-size: var(--f-size);
   line-height: 21px;
@@ -398,9 +398,9 @@
 }
 
 .button-pseudo:focus {
-  outline: none;       
-  box-shadow: 2px 2px 0 rgba(0, 0, 0, 1); 
-  transition: box-shadow 0.3s ease; 
+  outline: none;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 1);
+  transition: box-shadow 0.3s ease;
 }
 
 .disk {
