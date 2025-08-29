@@ -104,12 +104,6 @@ transition: transform 0.25s ease-out;
 opacity: 0;
 transform: scale(0.2);
 transition: opacity 0.3s linear, transform 0.3s linear;
-}
-
-.card__icon-button:not(.is-liked) .heart .sparks {
-opacity: 0;
-transform: scale(0.2);
-transition: opacity 0.3s linear, transform 0.3s linear;
 transform-origin: center center;
 }
 
