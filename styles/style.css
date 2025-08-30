@@ -131,7 +131,7 @@
   border-right: 0;
 }
 
-.lebel {
+.label {
   position: absolute;
   top: 25px;
   right: 25px;
@@ -314,6 +314,7 @@ border-color: var(--t-color);
   height: 21px;
   mix-blend-mode: difference;
   stroke: #fff;
+  margin-inline-start: 4px;
 }
 
 dialog {
@@ -365,9 +366,9 @@ dialog[open] {
   height: 38px;
 }
 
-@media (width <= 376px) {
+@media (width <= 375px) {
   .header {
-    margin-block-end: 99px;
+    margin-block-end: 97px;
   }
 
   .header-content {
@@ -377,15 +378,15 @@ dialog[open] {
   }
 
   .zero-sprint {
-    margin-block-end: 46px;
-  }
-
-  .clean-sheet {
     margin-block-end: 48px;
   }
 
+  .clean-sheet {
+    margin-block-end: 47px;
+  }
+
   .will-work {
-    margin-block-end: 46px;
+    margin-block-end: 47px;
   }
 
   .ideal {
@@ -401,7 +402,7 @@ dialog[open] {
   }
 
   .go-down {
-    margin-block-end: 48px;
+    margin-block-end: 47px;
   }
 
   .Im-here {
@@ -424,6 +425,12 @@ dialog[open] {
   .disk {
     width: 28px;
     height: 28px;
+    margin-block-start: 10px;
+    margin-inline-start: 0;
+  }
+
+  .button__text {
+    margin-block-end: 10px;
   }
 
   dialog {
